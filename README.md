@@ -37,7 +37,7 @@ The Gist is:
 - What calendar days can we deploy(read-only Fridays!)?
 - Should Jerry never be allowed to touch production again (Sorry Jerry)?
 - Accounts that are younger than 90 days old can't interact with certain environments.
-- The list goes on and on...
+- The list goes on and on, it is entirley up to the policy writer to 
 
 ### Hashicorp Sentinel
 
@@ -47,6 +47,13 @@ Example Policies can be found in /policies/sentinel/example_policies
 Comments include explanations for policies. 
 
 Documentation for Sentinel can be found at - https://docs.hashicorp.com/sentinel
+
+### Who is Sentinel designed for?
+
+- DevOps Engineeers
+- Cloud Engineers
+- Managers / Policy Writers
+- Security Engineers
 
 # Choice Architecture
 
