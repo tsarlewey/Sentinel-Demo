@@ -43,6 +43,8 @@ The Gist is:
 
 Sentinel is a high-level language built to manage and automate policies by incorporating all of the above benefits into simple text files.
 
+Sentinel is a Paid feature as part of Hashicorp's Cloud offerings.
+
 Example Policies can be found in /policies/sentinel/example_policies 
 Comments include explanations for policies. 
 
