@@ -29,6 +29,16 @@ Policy as Code is an implementation of organizational policies (such as no use o
 - Testing
 - Automation
 
+The Gist is: 
+- Policy as Code enables organizatiosn to control what can or can't be in Terraform files. 
+- What times it can or can't be deployed. 
+- Are there certain cost restrictions that should be enforced?
+- Should certain resources be impossible to deploy?
+- What calendar days can we deploy(read-only Fridays!)?
+- Should Jerry never be allowed to touch production again (Sorry Jerry)?
+- Accounts that are younger than 90 days old can't interact with certain environments.
+- The list goes on and on...
+
 ### Hashicorp Sentinel
 
 Sentinel is a high-level language built to manage and automate policies by incorporating all of the above benefits into simple text files.
