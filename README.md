@@ -48,13 +48,6 @@ Comments include explanations for policies.
 
 Documentation for Sentinel can be found at - https://docs.hashicorp.com/sentinel
 
-
-### Resources
-
-Third-Generation Common Functions 
-- https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation
-
-
 # Choice Architecture
 
 Choice architecture is about considering, and creating, an environment that guides those who choose into the desired choices of the architect. 
@@ -182,3 +175,20 @@ The description for these policies is a poor description, try altering it and ru
 to understand why the policy is failing/passing.
 
 (It's the top comment above the main variable in the policy)
+
+
+
+# Resources
+
+Third-Generation Common Functions 
+- https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation
+
+Hashicorp Documentation
+- https://docs.hashicorp.com/sentinel
+- https://www.terraform.io/docs/cloud/sentinel/index.html
+
+Additional training
+-  https://learn.hashicorp.com/tutorials/terraform/sentinel-install
+
+Full Hands-On Training Lab (requires account creation)
+- https://play.instruqt.com/public?query=sentinel
