@@ -44,7 +44,16 @@ The Gist is:
 Sentinel is a high-level language built to manage and automate policies by incorporating all of the above benefits into simple text files.
 
 Example Policies can be found in /policies/sentinel/example_policies 
-Comments include explanations.
+Comments include explanations for policies. 
+
+Documentation for Sentinel can be found at - https://docs.hashicorp.com/sentinel
+
+
+### Resources
+
+Third-Generation Common Functions 
+- https://github.com/hashicorp/terraform-guides/tree/master/governance/third-generation
+
 
 # Choice Architecture
 
@@ -54,6 +63,8 @@ There are a number of ways to accomplish this architecture, of which, two are ex
 
 - Default Choices
 - Nudges
+
+Sentinel uses both of these designs with the Default Choice being implied and set in every policy. And the nudges being left to the policy designers.
 
 ## Default Choice (considered a nudge)
 
