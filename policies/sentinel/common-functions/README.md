@@ -7,6 +7,8 @@ Writing Sentinel policies are still fairly easy, but the common-functions speed 
 For example, instead of writing
 
 ```
+import "tfplan/v2" as tfplan
+
 filter tfplan.resource_changes as address, rc {
   	rc.type is type and
   	rc.mode is "managed" and
@@ -26,6 +28,13 @@ resources = plan.find_resources("aws_instance")
 
 After finding the "aws_instance" work can be done with the attributes to ensure you craft the policy to the standard's you want.
 
+## Documentation
+
+These common-functions rely on a set of imports native to sentinel. More can be read here:
+
+- https://www.terraform.io/docs/cloud/sentinel/import/index.html
+
+### Conclusion
 It is my belief that these functions should ship standard with the Sentinel framework.
 
 More can be read up on these Policies by rberlind here: 
